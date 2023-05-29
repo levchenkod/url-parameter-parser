@@ -1,11 +1,13 @@
 {
   "name": "url-template-param-parser",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Parse parameters from URL template string",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "test": "jest",
     "build": "rm -rf dist && tsc",
-    "test": "jest"
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
