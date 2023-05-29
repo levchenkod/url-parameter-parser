@@ -5,7 +5,7 @@ A TypeScript library for parsing parameters in a URL template string.
 ## Installation
 
 ```
-npm install url-template-param-parser
+npm i url-template-param-parser --save
 ```
 
 ## Usage
