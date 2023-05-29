@@ -1,9 +1,4 @@
-
-type ParserResults = string[]
-
-
 const templateParameterRegExp = new RegExp('^\:[a-z_]*$', 'gi');
-
 
 const isParameter = (slug:string) => {
     return templateParameterRegExp.test(slug);
@@ -18,7 +13,7 @@ const isParameter = (slug:string) => {
  * const result = parseURLParams(url);
  * console.log(result); //['user_id', 'comment_id']
 */
-const parseURLParams = (template:string = ''):ParserResults => {
+const parseURLParams = (template:string = ''):string[] => {
     const __fallbackSite = 'https://test.com';
     const isNotValidURLBeginning = !template?.[0] || template?.[0] === '/';
     const url =  isNotValidURLBeginning ? 
