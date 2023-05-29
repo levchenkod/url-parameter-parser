@@ -1,6 +1,6 @@
 {
   "name": "url-template-param-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse parameters from URL template string",
   "main": "index.js",
   "scripts": {
