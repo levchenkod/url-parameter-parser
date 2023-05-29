@@ -1,8 +1,4 @@
 
-interface ParserOptions {
-    template: string
-}
-
 type ParserResults = string[]
 
 
